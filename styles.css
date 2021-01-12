@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+
+.header-text{
+    font-size: 39pt;
+    color: #441930;
+    font-family: 'Quicksand', sans-serif;
+    width: 90%;
+    text-align: center;
+    font-weight: 100;
+    margin-right: 5%;
+}
+
+.matrix{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.background{
+    background-image: url("./svg/background-\ home\ page.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 70%;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: ". cs"
+    "cn am";
+}
+
+
+.box{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 6px;
+    border-color: #FE0C97;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 196px;
+    height: 196px;
+    margin-left: 30%;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+}
+
+.cs{
+    grid-area: cs;
+    margin-top: 20%;
+
+}
+
+.am{
+    grid-area: am;
+}
+
+.cn{
+    grid-area: cn;
+}
+
+.cs-text{
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;;
+    color: #30001A;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.am-text{
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;;
+    color: #30001A;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.cn-text{
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;
+    color: #30001A;
+    text-align: center; 
+    font-weight: 400;
+}
+
+.casestudies{
+    font-size: 39px;
+    font-family: 'Quicksand', sans-serif;
+    color: #30001A;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#casestudiesgrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "spaceforcemockup sfdescriptiongrid"
+    "fraveldescriptiongrid fravelmockup"
+    "ngomockup ngodescriptiongrid"
+    ;
+}
+
+#spaceforcemockup{
+    grid-area: spaceforcemockup;
+}
+
+#fravelmockup{
+    grid-area: fravelmockup;
+}
+
+#ngomockup{
+    grid-area: ngomockup;
+}
+
+.sfdescriptiongrid{
+    grid-area: sfdescriptiongrid;
+}
+
+.fraveldescriptiongrid{
+    grid-area: fraveldescriptiongrid;
+}
+
+.ngodescriptiongrid{
+    grid-area: ngodescriptiongrid;
+}
+
+.casestudiesgridarea{
+    width: 903px;
+    height: 595px;
+    padding: 20px;
+}
+
+.backgroundshadow{
+    margin: 50px;
+    width: 750px;
+    height: 500px;
+    box-shadow: 0px 2px 20px 4px rgba(254, 12, 151, 0.4);
+}
+
+.sfdescriptiongrid{
+    width: 706px;
+    height: 534px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "sfheadline"
+    "sfmyrole"
+    "sfprojectname"
+    "sfdescription"
+    "sftools";
+}
+
+#sfheadline{
+    grid-area: sfheadline;
+    width: 520px;
+    height: 50px;
+    padding: 10px;
+    color: #FE0C97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+}
+
+#fravelheadline{
+    grid-area: sfheadline;
+    width: 520px;
+    height: 50px;
+    padding: 10px;
+    color: #FE0C97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+}
+
+#ngoheadline{
+    grid-area: sfheadline;
+    width: 520px;
+    height: 50px;
+    padding: 10px;
+    color: #FE0C97;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32pt;
+}
